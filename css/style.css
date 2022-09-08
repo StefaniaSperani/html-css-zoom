@@ -17,3 +17,14 @@ html{
     height: 100vh;
     flex-direction: column;
 }
+
+.bar{
+    float: right;
+    margin: 5px;
+}
+.bg-bar{
+    display: inline-block;
+    background-color: #4A4A4A;
+    border-radius: 3px;
+    padding: 5px;
+}
