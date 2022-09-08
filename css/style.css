@@ -12,6 +12,9 @@ html{
     color: white;
 }
 
+header{
+    padding-bottom: 40px;
+}
 .wrapper{
     display: flex;
     height: 100vh;
@@ -37,4 +40,17 @@ html{
     align-content: center;
     margin: 0 50px;
     height: 100%;
+}
+.cam{
+    display: flex;
+    margin: 5px 5px;
+    position: relative;
+}
+
+.webcam-settings{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    background-color:rgba(97,109,122,0.6);
+    padding: 5px 5px;
 }
